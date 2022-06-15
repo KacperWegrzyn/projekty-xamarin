@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pizzeria.MainPage">
+
+    <StackLayout BackgroundColor="LightGoldenrodYellow">
+        <ListView x:Name="Lista" ItemsSource="{Binding Pizza}" ItemTapped="Lista_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="{Binding Zdj}" HeightRequest="60" WidthRequest="80" Aspect="AspectFill"/>
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding Nazwa}" FontSize="Subtitle" TextColor="Blue"/>
+                                <Label Text="{Binding Opis}" FontSize="Micro"/>
+                            </StackLayout>
+                            <Label Text="{Binding Cena}" HorizontalOptions="EndAndExpand" Margin="0,12,0,0" TextColor="Black"/>
+                            <Label Text="zł" HorizontalOptions="End" Margin ="0,12,12,0" TextColor="Black"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Przejdź do koszyka" Clicked="Button_Clicked" BackgroundColor="DeepSkyBlue"/>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KsiazkaKontaktowa.ModyfikujUzytkownika">
+    <ContentPage.Content>
+        <StackLayout Padding="20" BackgroundColor="Snow">
+            <Label Text="Modyfikuj użytkownika" FontSize="Title" TextColor="Black"></Label>
+            <Entry Placeholder="Podaj imie" x:Name="imie"/>
+            <Entry Placeholder="Podaj nazwisko" x:Name="nazwisko"/>
+            <Label Text="Podaj płeć"/>
+            <RadioButton Content="Mężczyzna" GroupName="plec" x:Name="m"/>
+            <RadioButton Content="Kobieta" GroupName="plec" x:Name="k"/>
+            <Editor Placeholder="Opis" x:Name="opis" VerticalOptions="FillAndExpand"/>
+
+            <Button BackgroundColor="DodgerBlue" TextColor="snow" CornerRadius="5" Text="Galeria" Clicked="przycisk_galeria"/>
+            <Button BackgroundColor="DodgerBlue" TextColor="snow" CornerRadius="5" Text="Modyfikuj" Clicked="przycisk_modyfikuj"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

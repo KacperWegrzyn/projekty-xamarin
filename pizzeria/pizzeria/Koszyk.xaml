@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pizzeria.Koszyk">
+
+    <StackLayout BackgroundColor="LightGoldenrodYellow">
+        <ListView x:Name="Lista" ItemsSource="{Binding Pizza}" ItemTapped="Lista_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="{Binding Zdj}" HeightRequest="60" WidthRequest="80" Aspect="AspectFill"/>
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding Nazwa}" x:Name="Nazwa" FontSize="Subtitle" TextColor="Blue"/>
+                                <Label Text="{Binding Opis}" FontSize="Micro"/>
+                            </StackLayout>
+                            <Label Text="{Binding Ilosc}" HorizontalOptions="EndAndExpand" Margin="0,12,-30,0" TextColor="Black"/>
+                            <Label Text="x" HorizontalOptions="EndAndExpand" Margin="0,12,-30,0" TextColor="Black"/>
+                            <Label Text="{Binding Cena}" HorizontalOptions="EndAndExpand" Margin="0,12,0,0" TextColor="Black"/>
+                            <Label Text="zł" HorizontalOptions="End" Margin ="0,12,12,0" TextColor="Black"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Label Text="Wartość zamówienia: " FontSize="Medium"/>
+            <Label x:Name="doZaplaty" Text="{Binding Wartosc}" FontSize="Medium"/>
+            <Label Text="zł" FontSize="Medium"/>
+        </StackLayout>
+        <Button Text="Złóż zamówienie" Clicked="Button_Clicked" BackgroundColor="DeepSkyBlue"/>
+    </StackLayout>
+</ContentPage>

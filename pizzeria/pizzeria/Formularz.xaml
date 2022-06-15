@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pizzeria.Formularz">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightGoldenrodYellow">
+            <Label Text="Podaj dane dostawy:" FontSize="Large" TextColor="Black"/>
+            <Entry x:Name="imie" Placeholder="Imię" Keyboard="Text"/>
+            <Entry x:Name="nazwisko" Placeholder="Nazwisko" Keyboard="Text"/>
+            <Entry x:Name="numer" Placeholder="Numer telefonu" Keyboard="Telephone"/>
+            <Entry x:Name="adres" Placeholder="Adres" Keyboard="Text"/>
+            <Button Text="Zamów" Clicked="Button_Clicked" BackgroundColor="DeepSkyBlue"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KsiazkaKontaktowa.ProfilUzytkownika">
+    <ContentPage.Content>
+        <StackLayout Padding="40" BackgroundColor="Snow">
+            <Image Source="{Binding zdjecie}" x:Name="zdjecie" HeightRequest="300"/>
+            <Label Text="" x:Name="imie_nazwisko" FontSize="Title" HorizontalTextAlignment="Center" TextColor="Black"/>
+            <Label Text="" x:Name="plec" FontSize="Body"  HorizontalTextAlignment="Center" TextColor="DarkSlateGray"/>
+            <Label Text="" x:Name="opis" FontSize="Medium"  HorizontalTextAlignment="Start" TextColor="DarkSlateGray"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

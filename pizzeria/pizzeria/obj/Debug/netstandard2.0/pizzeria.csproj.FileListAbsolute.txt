@@ -1,0 +1,17 @@
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\obj\Debug\netstandard2.0\pizzeria.csproj.AssemblyReference.cache
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\obj\Debug\netstandard2.0\pizzeria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\obj\Debug\netstandard2.0\pizzeria.AssemblyInfoInputs.cache
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\obj\Debug\netstandard2.0\pizzeria.AssemblyInfo.cs
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\obj\Debug\netstandard2.0\pizzeria.csproj.CoreCompileInputs.cache
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\bin\Debug\netstandard2.0\pizzeria.deps.json
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\bin\Debug\netstandard2.0\pizzeria.dll
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\bin\Debug\netstandard2.0\ref\pizzeria.dll
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\bin\Debug\netstandard2.0\pizzeria.pdb
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\obj\Debug\netstandard2.0\pizzeria.dll
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\obj\Debug\netstandard2.0\ref\pizzeria.dll
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\obj\Debug\netstandard2.0\pizzeria.pdb
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\obj\Debug\netstandard2.0\Koszyk.xaml.g.cs
+C:\Users\Kacper\Desktop\xamarin\pizzeria\pizzeria\obj\Debug\netstandard2.0\Formularz.xaml.g.cs
