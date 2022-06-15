@@ -1,0 +1,15 @@
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\bin\Debug\netstandard2.0\kartka.deps.json
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\bin\Debug\netstandard2.0\kartka.dll
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\bin\Debug\netstandard2.0\ref\kartka.dll
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\bin\Debug\netstandard2.0\kartka.pdb
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\obj\Debug\netstandard2.0\kartka.csproj.AssemblyReference.cache
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\obj\Debug\netstandard2.0\kartka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\obj\Debug\netstandard2.0\kartka.AssemblyInfoInputs.cache
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\obj\Debug\netstandard2.0\kartka.AssemblyInfo.cs
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\obj\Debug\netstandard2.0\kartka.csproj.CoreCompileInputs.cache
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\obj\Debug\netstandard2.0\kartka.dll
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\obj\Debug\netstandard2.0\ref\kartka.dll
+C:\Users\Kacper\Desktop\xamarin\kartka\kartka\obj\Debug\netstandard2.0\kartka.pdb

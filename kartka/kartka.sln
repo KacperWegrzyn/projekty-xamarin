@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kartka.Android", "kartka.Android\kartka.Android.csproj", "{CD4D3355-B716-4BE8-B381-B43B00308B8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kartka", "kartka\kartka.csproj", "{07C28A65-C2DA-4169-B4FA-A76464CA5A9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD4D3355-B716-4BE8-B381-B43B00308B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4D3355-B716-4BE8-B381-B43B00308B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4D3355-B716-4BE8-B381-B43B00308B8E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CD4D3355-B716-4BE8-B381-B43B00308B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4D3355-B716-4BE8-B381-B43B00308B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4D3355-B716-4BE8-B381-B43B00308B8E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{07C28A65-C2DA-4169-B4FA-A76464CA5A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C28A65-C2DA-4169-B4FA-A76464CA5A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C28A65-C2DA-4169-B4FA-A76464CA5A9F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{07C28A65-C2DA-4169-B4FA-A76464CA5A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C28A65-C2DA-4169-B4FA-A76464CA5A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C28A65-C2DA-4169-B4FA-A76464CA5A9F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71F2D975-886F-45A2-820C-E0723BC5A9D0}
+	EndGlobalSection
+EndGlobal
